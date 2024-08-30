@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #5c3a3a;
+    background-color: #f1f1f1;
     font-family: HelveticaNeueRegular, HelveticaNeue-Regular, "Helvetica Neue Regular", HelveticaNeue, "Helvetica Neue", Helvetica, Arial;
     color: #0272B7;
 }
@@ -35,7 +35,17 @@ h4 {
 }
 #latest_firmware {
 	color: #1d3557;
-}	
+}
+
+#temperature_reading {
+	display:inline;
+	color: #1d3557;
+}
+
+#humidity_reading {
+	display:inline;
+	color: #1d3557;
+}
 
 .buttons {
     padding: 5px;

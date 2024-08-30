@@ -5,7 +5,7 @@
 #include "nvs_flash.h"
 
 #include "wifi_app.h"
-
+#include "DHT22.h"
 void app_main(void)
 {
     // Initialize NVS
@@ -19,5 +19,8 @@ void app_main(void)
 
 	// Start Wifi
 	wifi_app_start();
+	//START DHT11
+	DHT22_task_start();
+
 }
 
