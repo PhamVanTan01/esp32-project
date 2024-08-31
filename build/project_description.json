@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "project-name",
-    "project_version":    "f042ebb-dirty",
+    "project_version":    "c124b7b-dirty",
     "project_path":       "C:/Users/Teo/project-name",
     "idf_path":           "C:/Users/Teo/esp/v5.3/esp-idf",
     "build_dir":          "C:/Users/Teo/project-name/build",
@@ -1180,7 +1180,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__led_strip" ],
             "file": "C:/Users/Teo/project-name/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/Teo/project-name/main/main.c", "C:/Users/Teo/project-name/main/rgb_led.c", "C:/Users/Teo/project-name/main/wifi_app.c", "C:/Users/Teo/project-name/main/http_server.c", "C:/Users/Teo/project-name/main/DHT22.c", "C:/Users/Teo/project-name/build/app.css.S", "C:/Users/Teo/project-name/build/app.js.S", "C:/Users/Teo/project-name/build/favicon.ico.S", "C:/Users/Teo/project-name/build/index.html.S", "C:/Users/Teo/project-name/build/jquery-3.3.1.min.js.S" ],
+            "sources": [ "C:/Users/Teo/project-name/main/main.c", "C:/Users/Teo/project-name/main/rgb_led.c", "C:/Users/Teo/project-name/main/wifi_app.c", "C:/Users/Teo/project-name/main/http_server.c", "C:/Users/Teo/project-name/main/DHT22.c", "C:/Users/Teo/project-name/main/app_nvs.c", "C:/Users/Teo/project-name/main/wifi_resset_button.c", "C:/Users/Teo/project-name/build/app.css.S", "C:/Users/Teo/project-name/build/app.js.S", "C:/Users/Teo/project-name/build/favicon.ico.S", "C:/Users/Teo/project-name/build/index.html.S", "C:/Users/Teo/project-name/build/jquery-3.3.1.min.js.S" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

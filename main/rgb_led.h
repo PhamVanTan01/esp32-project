@@ -1,10 +1,3 @@
-/*
- * rgb_led.h
- *
- *  Created on: Oct 11, 2021
- *      Author: kjagu
- */
-
 #ifndef MAIN_RGB_LED_H_
 #define MAIN_RGB_LED_H_
 
@@ -40,5 +33,7 @@ void rgb_led_http_server_started(void);
  * Color to indicate that the ESP32 is connected to an access point.
  */
 void rgb_led_wifi_connected(void);
+
+void rgb_test(void);
 
 #endif /* MAIN_RGB_LED_H_ */

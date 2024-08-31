@@ -88,7 +88,6 @@ int getSignalLevel( int usTimeOut, bool state )
 
 		if( uSec > usTimeOut ) 
 			return -1;
-		
 		++uSec;
 		esp_rom_delay_us(1);		// uSec delay
 	}
